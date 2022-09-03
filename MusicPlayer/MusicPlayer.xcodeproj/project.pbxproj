@@ -14,6 +14,9 @@
 		0DEB36C728C3575500A3EAA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DEB36C628C3575500A3EAA0 /* Assets.xcassets */; };
 		0DEB36CA28C3575500A3EAA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DEB36C828C3575500A3EAA0 /* LaunchScreen.storyboard */; };
 		0DEB36D628C357EF00A3EAA0 /* TrackCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEB36D528C357EF00A3EAA0 /* TrackCVCell.swift */; };
+		0DEB36DB28C359CC00A3EAA0 /* The_Weeknd_Daft_Punk_-_Starboy_48209275.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DEB36D828C359CA00A3EAA0 /* The_Weeknd_Daft_Punk_-_Starboy_48209275.mp3 */; };
+		0DEB36DC28C359CC00A3EAA0 /* Swedish_House_Mafia_The_Weeknd_-_Moth_To_A_Flame_73214181.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DEB36D928C359CB00A3EAA0 /* Swedish_House_Mafia_The_Weeknd_-_Moth_To_A_Flame_73214181.mp3 */; };
+		0DEB36DD28C359CC00A3EAA0 /* The_Weeknd_-_Call_Out_My_Name_54958278.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DEB36DA28C359CB00A3EAA0 /* The_Weeknd_-_Call_Out_My_Name_54958278.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		0DEB36C928C3575500A3EAA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DEB36CB28C3575500A3EAA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DEB36D528C357EF00A3EAA0 /* TrackCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCVCell.swift; sourceTree = "<group>"; };
+		0DEB36D828C359CA00A3EAA0 /* The_Weeknd_Daft_Punk_-_Starboy_48209275.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The_Weeknd_Daft_Punk_-_Starboy_48209275.mp3"; sourceTree = "<group>"; };
+		0DEB36D928C359CB00A3EAA0 /* Swedish_House_Mafia_The_Weeknd_-_Moth_To_A_Flame_73214181.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Swedish_House_Mafia_The_Weeknd_-_Moth_To_A_Flame_73214181.mp3"; sourceTree = "<group>"; };
+		0DEB36DA28C359CB00A3EAA0 /* The_Weeknd_-_Call_Out_My_Name_54958278.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The_Weeknd_-_Call_Out_My_Name_54958278.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,10 @@
 		0DEB36BC28C3574F00A3EAA0 /* MusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				0DEB36D728C3580500A3EAA0 /* Track's */,
 				0DEB36D128C3576300A3EAA0 /* AppDelegates */,
 				0DEB36D228C3576C00A3EAA0 /* Controllers */,
-				0DEB36D428C357D300A3EAA0 /* Cell */,
 				0DEB36D328C3577400A3EAA0 /* Views */,
+				0DEB36D728C3580500A3EAA0 /* Track's */,
 				0DEB36C628C3575500A3EAA0 /* Assets.xcassets */,
 				0DEB36CB28C3575500A3EAA0 /* Info.plist */,
 			);
@@ -81,6 +86,7 @@
 		0DEB36D228C3576C00A3EAA0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0DEB36D428C357D300A3EAA0 /* Cell */,
 				0DEB36C128C3574F00A3EAA0 /* TracksVC.swift */,
 			);
 			path = Controllers;
@@ -106,6 +112,9 @@
 		0DEB36D728C3580500A3EAA0 /* Track's */ = {
 			isa = PBXGroup;
 			children = (
+				0DEB36D928C359CB00A3EAA0 /* Swedish_House_Mafia_The_Weeknd_-_Moth_To_A_Flame_73214181.mp3 */,
+				0DEB36DA28C359CB00A3EAA0 /* The_Weeknd_-_Call_Out_My_Name_54958278.mp3 */,
+				0DEB36D828C359CA00A3EAA0 /* The_Weeknd_Daft_Punk_-_Starboy_48209275.mp3 */,
 			);
 			path = "Track's";
 			sourceTree = "<group>";
@@ -169,8 +178,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DEB36CA28C3575500A3EAA0 /* LaunchScreen.storyboard in Resources */,
+				0DEB36DB28C359CC00A3EAA0 /* The_Weeknd_Daft_Punk_-_Starboy_48209275.mp3 in Resources */,
+				0DEB36DD28C359CC00A3EAA0 /* The_Weeknd_-_Call_Out_My_Name_54958278.mp3 in Resources */,
 				0DEB36C728C3575500A3EAA0 /* Assets.xcassets in Resources */,
 				0DEB36C528C3574F00A3EAA0 /* Main.storyboard in Resources */,
+				0DEB36DC28C359CC00A3EAA0 /* Swedish_House_Mafia_The_Weeknd_-_Moth_To_A_Flame_73214181.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
