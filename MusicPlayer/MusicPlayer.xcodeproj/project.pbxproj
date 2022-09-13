@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DE0104B28CA69AA002996CA /* some.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0104A28CA69AA002996CA /* some.swift */; };
 		0DEB36BE28C3574F00A3EAA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEB36BD28C3574F00A3EAA0 /* AppDelegate.swift */; };
 		0DEB36C028C3574F00A3EAA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEB36BF28C3574F00A3EAA0 /* SceneDelegate.swift */; };
 		0DEB36C228C3574F00A3EAA0 /* TracksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEB36C128C3574F00A3EAA0 /* TracksVC.swift */; };
@@ -22,7 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0DE0104A28CA69AA002996CA /* some.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = some.swift; sourceTree = "<group>"; };
 		0DEB36BA28C3574F00A3EAA0 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DEB36BD28C3574F00A3EAA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DEB36BF28C3574F00A3EAA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 			children = (
 				0DEB36D428C357D300A3EAA0 /* Cell */,
 				0DEB36C128C3574F00A3EAA0 /* TracksVC.swift */,
-				0DE0104A28CA69AA002996CA /* some.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -264,7 +261,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DE0104B28CA69AA002996CA /* some.swift in Sources */,
 				0DEB36C228C3574F00A3EAA0 /* TracksVC.swift in Sources */,
 				0DEB36BE28C3574F00A3EAA0 /* AppDelegate.swift in Sources */,
 				0DEB36D628C357EF00A3EAA0 /* TrackCVCell.swift in Sources */,
