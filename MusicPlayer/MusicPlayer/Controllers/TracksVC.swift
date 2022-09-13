@@ -1,5 +1,3 @@
-
-
 //
 //  TracksVC.swift
 //  MusicPlayer
@@ -122,6 +120,9 @@ class TracksVC: UIViewController {
             backButtonDigit = 0
         }
         setupSlider()
+        playPauseButton.setImage(UIImage(named: "Button_Play"), for: .normal)
+        player?.pause()
+        setupSlider()
         collectionView.isPagingEnabled = true
     }
 
@@ -143,6 +144,9 @@ class TracksVC: UIViewController {
         default:
             nextButtonDigit = 0
         }
+        setupSlider()
+        playPauseButton.setImage(UIImage(named: "Button_Play"), for: .normal)
+        player?.pause()
         setupSlider()
         collectionView.isPagingEnabled = true
     }
